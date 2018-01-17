@@ -1,0 +1,22 @@
+{
+  "name": "smcp-core",
+  "version": "0.1.0",
+  "author": "Yann Hochet",
+  "license": "MIT",
+  "description": "SMCP core",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },   
+  "dependencies": {
+    "express": "^4.16.2",
+    "q": "^1.5.1",
+    "body-parser": "^1.16.1",   
+    "compression": "^1.6.2", 
+    "winston": "^2.4.0",
+    "moment": "^2.20.1"    
+  },
+  "engines": {
+    "node": "9.3.0"
+  } 
+}
